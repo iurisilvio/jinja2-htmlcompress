@@ -8,7 +8,7 @@ setup(
     author = 'Dmitry Dolgov',
     author_email = '9erthalion6@gmail.com',
     url = 'https://github.com/erthalion/jinja2-htmlcompress',
-    download_url = 'https://github.com/erthalion/jinja2-htmlcompress/tarball/0.1.1',
+    download_url = 'https://github.com/erthalion/jinja2-htmlcompress/tarball/0.1.2',
     keywords = ['jinja2', 'html', 'compress'],
     classifiers = [],
     install_requires=[
