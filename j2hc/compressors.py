@@ -108,7 +108,9 @@ class HTMLCompress(Extension):
                 return
 
             if normalize and not self.is_isolated(ctx.stack):
-                token_value = _ws_normalize_re.sub(' ', token_value.strip())
+                if token_value[-2:] == "  " or token_value[-1:] == "\n":
+                    token_value = token_value.strip()
+                token_value = _ws_normalize_re.sub(' ', token_value)
 
             token_buffer.append(token_value)
 
