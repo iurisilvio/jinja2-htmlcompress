@@ -13,6 +13,6 @@ setup(
     classifiers = [],
     install_requires=[
         'future==0.15.2',
-        'Jinja2==2.8'
+        'Jinja2<3.0'
     ],
 )
